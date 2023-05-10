@@ -1,0 +1,13 @@
+.grid-container {
+
+}
+
+.grid-item {
+
+}
+
+section {
+    background-color: grey;
+    float: center;
+    width: 300px;
+}
