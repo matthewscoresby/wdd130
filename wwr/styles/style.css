@@ -110,11 +110,15 @@ footer {
     text-decoration: none;
     padding: 25px 50px;
     margin-top: 200px;
-    text-decoration: none;
 }
 
 footer p {
     font-size: 1.2em;
+}
+
+footer p a {
+    text-decoration: none;
+    color: black;
 }
 
 footer p a:hover {
@@ -130,7 +134,7 @@ footer .social img {
     padding-top: 10px;
 }
 
-.hero-img {
+#hero-img {
     width: 100%;
 }
 
@@ -144,7 +148,7 @@ footer .social img {
 }
 
 .card-img {
-    border: 10px;
+    border: 10px solid black;
 }
 
 .rivers-card  {
@@ -162,4 +166,8 @@ footer .social img {
 .logo {
     width: 100px;
     height: 100px;
+}
+
+.mountains {
+    margin-top: 100px;
 }
