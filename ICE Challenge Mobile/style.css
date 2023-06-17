@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.gridimg {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.description {
+   font-family:'Roboto Slab', 'Arial', 'Times New Roman';
+   color: grey;
+   margin-left: 32px;
+   margin-right: 32px;
+   font-size:15px;
+}
+
+.MainGrid {
+    margin: auto;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+.number{
+    margin-top: 20px;
+    font-family:'Lora', 'Arial', 'Times New Roman';
+    color: white;
+    align-self: center;
+    font-size: 20px;
+}
+
+.text{
+    margin-bottom: 20px;
+    font-family:'Lora', 'Arial', 'Times New Roman';
+    color: white;
+    align-self: center;
+    font-size: 10px;
+}
+.bottombar{
+    background-color: #3F5B8B;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 30px;
+
+}
+h1{
+    margin: 0;
+    margin-bottom: 20px;
+    font-family:'Roboto Slab', 'Arial', 'Times New Roman';
+    font-weight: 900;
+}
+
+h3{
+    margin: 0;
+    margin-top: 20px;
+    color: #3F5B8B;
+    font-family:'Lora', 'Arial', 'Times New Roman';
+    font-size: 13px;
+}
+
+.middleBox{
+    border-right: 1px inset grey;
+}
+
+.leftbox{
+    border-right: 1px inset grey;
+}
+
+.smallM{
+    font-size: 12px;
+    display: inline-block;
+}
