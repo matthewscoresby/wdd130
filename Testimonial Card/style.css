@@ -1,0 +1,101 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(45deg, white 0%, black 100%);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    height: 470px;
+    width: 940px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    box-shadow: 5px 5px 10px #505050;
+}
+
+.cardimg {
+    height: 470px;
+    width: 400px;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+.textgrid {
+    padding: 70px 60px 46px 60px;
+    display: grid;
+    grid-template-rows: 45px 30px;
+    width: 421px;
+    height: 355px;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+    margin: 0px;
+    grid-row: 1/2;
+    color: rgb(49, 49, 49);
+}
+
+.RoleText{
+    grid-row: 2/3;
+    padding-top: 10px;
+    margin: 0;
+    color: rgb(49, 49, 49);
+}
+
+.DescriptionText {
+    margin: 0;
+    grid-row: 3/4;
+    margin-bottom: 0px;
+    grid-column: 1/2;
+    padding-right: 30px;
+    padding-top: 40px;
+    color: gray;
+    font-size: 13px;
+}
+
+.boxes {
+    height: 15px;
+    grid-row: 4/5;
+    margin: auto;
+    margin-left: 0px;
+    display: grid;
+    grid-gap: 5px;
+    grid-column: 1/2;
+}
+
+.box {
+    height: 12px;
+    width: 12px;
+    background-color: black;
+    grid-row: 1/2;
+}
+
+.box-colored {
+    height: 12px;
+    width: 12px;
+    background-color: grey;
+    grid-row: 1/2;
+}
+
+.qoutesimg {
+    margin: auto;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    height: 40px;
+    grid-row: 3/5;
+    grid-column: 1/2;
+    transform: rotate(180deg);
+}
